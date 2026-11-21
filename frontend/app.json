@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Eduflow",
+    "slug": "eduflow-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eduflow.mobile"
+    },
+    "android": {
+      "package": "com.eduflow.mobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3537232a-318c-4155-8f6c-9f622d83ab28"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "./plugins/withCleartextTraffic",
+      "expo-video"
+    ]
+  }
+}
